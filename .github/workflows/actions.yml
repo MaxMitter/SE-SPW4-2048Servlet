@@ -25,7 +25,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-        run: mvn test
+      - run: mvn test
   package:
     name: package
     runs-on: self-hosted
